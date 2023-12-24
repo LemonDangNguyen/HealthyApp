@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Mật khẩu mới"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNewPassword"
+        android:layout_margin="16dp"
+        android:hint="Xác nhận mật khẩu mới"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextVerificationCode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfirmPassword"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Nhập mã xác nhận"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVerificationCode1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:enabled="false"
+        android:text="Xác nhận" />
+
+    <TextView
+        android:id="@+id/textViewResendCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonConfirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Bạn chưa nhận được mã xác nhận, gửi lại sau 30s"
+        android:textColor="@android:color/holo_red_dark"
+        android:clickable="true"
+        android:onClick="resendVerification"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ManHinhXinChao">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Xin Chào: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yourname"
+            android:text="yourname"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông Tin Cá Nhân"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logoapp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tennguoidung"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/ten_nguoi_dung"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/gioitinh"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/gioi_tinh"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tuoiage"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/tuoi"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logoapp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chieucao1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/chieu_cao"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/cannang1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/can_nang"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nhiptim1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/nhip_tim"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/huyetap1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_input"
+                android:hint="@string/huyet_ap"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

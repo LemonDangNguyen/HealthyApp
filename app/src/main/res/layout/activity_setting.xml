@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:background="@drawable/hdbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img_6"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cài đặt"
+            android:layout_marginRight="20dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+             />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/blue_box">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_1" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUserX"
+                android:layout_marginTop="8dp"
+                android:text="Tên người dùng"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Chỉnh sửa"
+                    android:textColor="@color/button"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/img_7" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+   <ScrollView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <LinearLayout
+               android:id="@+id/btnTheme"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginRight="40dp"
+                   app:srcCompat="@drawable/theme" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Giao Diện"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:textStyle="bold" />
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginRight="19dp"
+                   app:srcCompat="@drawable/img_8" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Lời nhắc nhở"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:id="@+id/btnLanguage"
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginRight="42dp"
+                   app:srcCompat="@drawable/img_10" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Ngôn Ngữ"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginRight="46dp"
+                   app:srcCompat="@drawable/img_11" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Hồ So"
+                   android:layout_marginRight="34dp"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   app:srcCompat="@drawable/img_12"
+                   android:layout_marginRight="30dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Bảo Mật"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:layout_marginRight="30dp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:id="@+id/btnlogout"
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="75dp"
+               android:orientation="horizontal"
+               android:background="@drawable/gray_box">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   app:srcCompat="@drawable/img_13"
+                   android:layout_marginRight="35dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/gray"
+                   android:text="Đăng Xuất"
+                   android:textColor="@color/black"
+                   android:textSize="23sp"
+                   android:textStyle="bold" />
+
+
+
+           </LinearLayout>
+       </LinearLayout>
+
+   </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_button"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/btnhome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/btndetails"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/ic_ghichu" />
+
+        <ImageView
+            android:id="@+id/btnpractice"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/ic_tich" />
+
+        <ImageView
+            android:id="@+id/btnsetting"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_caidat" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

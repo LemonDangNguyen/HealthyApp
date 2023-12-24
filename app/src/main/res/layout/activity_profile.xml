@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chinh_sua"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/ten_nguoi_dung"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/sexEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/gioi_tinh"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/tuoi"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/chieu_cao"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/can_nang"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/heartRateEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/nhip_tim"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bloodPressureEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/huyet_ap"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/stepsEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_input"
+        android:hint="@string/buoc_chan"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/xac_nhan"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>

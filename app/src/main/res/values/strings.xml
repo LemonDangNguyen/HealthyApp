@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Healthy</string>
+    <string name="soTheoDoiSucKhoe">Sổ theo dõi sức khỏe</string>
+    <string name="username">Số điện thoại/ Email</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="forgotpassword"><u>Quên Mật Khẩu</u></string>
+    <string name="login">Đăng Nhập</string>
+    <string name="regester_account"><u>  Bạn chưa có tài khoản? Đăng Ký  </u></string>
+    <string name="register">Đăng Ký</string>
+    <string name="Confirmpassword">Xác Nhận Mật Khẩu</string>
+    <string name="hoanThanhThongTin">Hoàn thành thông tin cá nhân của bạn</string>
+    <string name="tiepTuc">Tiếp tục</string>
+    <string name="textDuongHuyet">Đường huyết</string>
+    <string name="txtconfirm">Mã Xác Nhận Đã Được Gửi Đến:</string>
+    <string name="inputotp">Nhập Mã Xác Thực </string>
+    <string name="resendcode"><u>Gửi Lại Mã</u></string>
+    <string name="confrimcodeotp">Xác Nhận</string>
+    <string name="chinh_sua">Chỉnh sửa</string>
+    <string name="ten_nguoi_dung">Tên người dùng</string>
+    <string name="gioi_tinh">Giới tính</string>
+    <string name="chieu_cao">Chiều cao</string>
+    <string name="tuoi">Tuổi</string>
+    <string name="step">Bước Chân</string>
+    <string name="can_nang">Cân nặng</string>
+    <string name="nhip_tim">Nhịp tim</string>
+    <string name="huyet_ap">Huyết áp</string>
+    <string name="buoc_chan">Bước chân</string>
+    <string name="xac_nhan">Xác nhận</string>
+
+    <string name="default_web_client_id" translatable="false">200585081158-bn45d8j9j4s75gb6d0guppanag7k3j39.apps.googleusercontent.com</string>
+</resources>
